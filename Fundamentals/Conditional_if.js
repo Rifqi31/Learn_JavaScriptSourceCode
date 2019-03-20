@@ -38,3 +38,23 @@ if (selfhope) {
 } else {
 	alert("There is still hope, because god Alla know best, and best planner in the universe");
 }
+
+// Ternary '?' operator
+let myage = 23;
+let antumbaligh = (myage >= 17) ? alert("fulan baligh") : alert("belum baligh");
+/*
+let antumbaligh = null;
+if (myage >= 17) {
+	alert("fulan baligh");	
+} else {
+	alert("belum baligh");	
+}
+*/
+
+// mulitple '?' ternary operator
+let mentality = 50;
+let selfstat = (mentality == 100) ? alert("strong enough!") :
+	(mentality >= 75) ? alert("normal person with such good seminar") :
+	(mentality >= 60) ? alert("normal person") : 
+	(mentality >= 50) ? alert("dude just pray!") :
+	alert("just calm and rethinking");
